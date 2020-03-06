@@ -1,6 +1,9 @@
-name: Python
+name: Python_web_server
 
-on: [push]
+on:
+  push:
+    branches: 
+      - master 
 
 jobs:
   build:
