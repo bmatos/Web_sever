@@ -7,6 +7,7 @@ on:
 
 jobs:
   build:
+    name: Web_sever
 
     runs-on: ubuntu-latest
 
