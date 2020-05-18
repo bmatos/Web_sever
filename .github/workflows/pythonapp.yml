@@ -36,5 +36,5 @@ jobs:
         import pytest
 
         pip install pytest
-        pytest server.py
+        pytest 
 
