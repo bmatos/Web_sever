@@ -3,7 +3,7 @@ services:
   web:
     build: .
     ports:
-    - "8890:8891"
+    - "8890:8890"
     volumes:
     - .:/code
     - logvolume01:/var/log
