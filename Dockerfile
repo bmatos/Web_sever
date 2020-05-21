@@ -1,4 +1,4 @@
-FROM python:3.6
+FROM python:3.8
 
 ADD . /app
 
@@ -6,4 +6,4 @@ WORKDIR /app
 
 EXPOSE 8890
 
-CMD ["python", "./server.py"]
+CMD ["python", "server.py"]
