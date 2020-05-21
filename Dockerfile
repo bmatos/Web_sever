@@ -6,4 +6,4 @@ WORKDIR /app
 
 EXPOSE 8890
 
-CMD ["python", "server.py"]
+CMD ["python", "./server.py"]
